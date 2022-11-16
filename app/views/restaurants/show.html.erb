@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Restaurant Details </h1>
+  <ul>
+    <li>
+    <%= @restaurant.name %> -
+    <%= @restaurant.address %> -
+    <%= @restaurant.category %>
+    </li>
+  </ul>
+  <%= link_to "Go back to all restaurants", restaurants_path%>
+</div>
